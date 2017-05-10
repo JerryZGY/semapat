@@ -1,5 +1,5 @@
 export default {
     port: 80,
-    database: 'SJH',
+    database: 'SJHN',
     host: 'http://localhost:32770/'
 };

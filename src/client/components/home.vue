@@ -12,6 +12,11 @@
             &lt;{{item.value}}&gt;
           </b-button>
         </template>
+        <template slot="specs" scope="item">
+          <b-button v-for="spec in item.value" :key="spec" :variant="'outline-success'" @click="details(spec)">
+            &lt;{{spec}}&gt;
+          </b-button>
+        </template>
         <template slot="patents" scope="item">
           <b-button v-for="patent in item.value" :key="patent" :variant="'outline-success'" @click="details(patent)">
             &lt;{{patent}}&gt;
@@ -76,6 +81,10 @@ export default class Home extends Vue {
     name: {
       label: 'Name',
       class: 'name-container'
+    },
+    specs: {
+      label: 'Specs',
+      class: 'patents-container'
     },
     patents: {
       label: 'Patents',

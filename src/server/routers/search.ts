@@ -11,7 +11,7 @@ router.post('/', async ctx => {
   const conn = new Connection();
   conn.setEndpoint(config.host);
   conn.setCredentials('admin', 'admin');
-  const query = `SELECT ?product ?url ?name ?patents (GROUP_CONCAT(?img) AS ?imgs)
+  const query = `SELECT ?product ?url ?name ?specs ?patents (GROUP_CONCAT(?img) AS ?imgs)
                  WHERE
                  {
                  ?product  product:kind  "${kind}";
@@ -26,8 +26,16 @@ router.post('/', async ctx => {
                      }
                      GROUP BY ?product
                    }
+                   {
+                     SELECT ?product (GROUP_CONCAT(?spec) AS ?specs)
+                     WHERE
+                     {
+                       ?product product:spec ?spec.
+                     }
+                     GROUP BY ?product
+                   }
                  }
-                 GROUP BY ?product ?url ?name ?patents`;
+                 GROUP BY ?product ?url ?name ?specs ?patents`;
   const response = await new Promise<any[]>((res, rej) => conn.query({ database: config.database, query }, ({ results }) => res(results.bindings)));
   ctx.body = formatResponse(response);
 });
@@ -36,7 +44,7 @@ function formatResponse(response) {
   return response.map(x => {
     Object.keys(x).forEach(key => {
       x[key] = x[key].value;
-      if (key === 'patents' || key === 'imgs') {
+      if (key === 'specs' || key === 'patents' || key === 'imgs') {
         if (!x[key]) {
           delete x[key];
         } else {
