@@ -58,7 +58,7 @@ module.exports = {
     ]
   },
   plugins: [
-    // new CleanWebpackPlugin([outDir], { verbose: false }),
+    new CleanWebpackPlugin([outDir], { verbose: false }),
     new HtmlWebpackPlugin({
       title: 'SemaPat',
       inject: false,
