@@ -1,0 +1,203 @@
+@prefix spec: <http://sjh/spec#>.
+@prefix patent: <http://sjh/patent#>.
+@prefix product: <http://sjh/product#>.
+
+<http://sjh/product#0>
+    product:name "Dyson Supersonic 吹風機";
+    product:kind "吹風機";
+    product:url <http://www.dyson.tw/haircare/supersonic/features.aspx>;
+    product:patent <http://sjh/patent#TWM529419U>;
+    product:patent <http://sjh/patent#TWM502381U>;
+    product:patent <http://sjh/patent#TWM472439U>;
+    product:img <https://a.ecimg.tw/items/DMBA0PA9007LYXU/000001_1489999067.jpg>;
+    product:img <http://imgs.niusnews.com/upload/imgs/default/16MayCh/0503c/3.jpg>;
+    product:img <https://68.media.tumblr.com/6d2e57dca49ff515abcb9a59bb584f84/tumblr_inline_o7266rtdXG1tvxyxg_1280.jpg>.
+
+<http://sjh/patent#TWM529419U>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_M529419_104220029&rowIndex=0&storageId=1494341642861_model>;
+    patent:name "手持用具";
+    patent:spec "過濾髒污";
+    patent:applicant "戴森科技有限公司".
+
+<http://sjh/patent#TWM502381U>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_M502381_103211806&rowIndex=4&storageId=1494341642861_model>;
+    patent:name "頭髮護理器具";
+    patent:spec "快速乾髮";
+    patent:applicant "戴森科技有限公司".
+
+<http://sjh/patent#TWM472439U>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_M472439_102212476&rowIndex=9&storageId=1494341642861_model>;
+    patent:name "吹風機及用於吹風機之噴嘴";
+    patent:spec "防燙噴嘴";
+    patent:applicant "戴森科技有限公司".
+
+<http://sjh/product#1>
+    product:name "Panasonic EH-NA98 吹風機";
+    product:kind "吹風機";
+    product:url <http://www.panasonic.com/tw/consumer/beauty/hair/hair-dryer/eh-na98.html>;
+    product:patent <http://sjh/patent#TWI353889B1>;
+    product:patent <http://sjh/patent#TWI331907>;
+    product:patent <http://sjh/patent#TWI380787B1>;
+    product:img <https://pic.pimg.tw/omifind/1468387801-1461333924.jpg>;
+    product:img <https://static.friday.tw/mall/7554955/s_3805833_2b3acf7430_o.jpg>.
+
+<http://sjh/patent#TWI353889B1>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_M529419_104220029&rowIndex=0&storageId=1494341642861_model>;
+    patent:name "靜電霧化器及具備其之熱空氣吹風器";
+    patent:spec "防靜電";
+    patent:applicant "松下電工股份有限公司".
+
+<http://sjh/patent#TWI331907>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_I331907_096135391&rowIndex=6&storageId=1494342313184_invention>;
+    patent:name "離子乾髮器";
+    patent:spec "負離子護髮";
+    patent:applicant "松下電工股份有限公司".
+
+<http://sjh/patent#TWI380787B1>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_I380787_098130757&rowIndex=2&storageId=1494342313184_invention>;
+    patent:name "金屬微粒子生成裝置以及具備該裝置之護髮裝置";
+    patent:spec "負離子護髮";
+    patent:applicant "松下電工股份有限公司".
+
+<http://sjh/product#2>
+    product:name "宜美牌 MB-6100 吹風機";
+    product:kind "吹風機";
+    product:url <http://www.mistral.com.tw/product_cg100767.html>;
+    product:patent <http://sjh/patent#TWM518025U>;
+    product:img <http://www.hair.com.tw/upload/%E5%AE%9C%E7%BE%8EMD-6100%E5%B0%88%E5%88%A9%E5%90%B9%E9%A2%A8%E6%A9%9F.jpg> .
+
+<http://sjh/patent#TWM518025U>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_M518025_104217232&rowIndex=1&storageId=1494343387328_model>;
+    patent:name "吹風機結構";
+    patent:spec "快速乾髮";
+    patent:applicant "威方有限公司".
+
+<http://sjh/product#3>
+    product:name "Dyson DC61 吸塵器";
+    product:kind "吸塵器";
+    product:url <http://www.dyson.tw/vacuums/handheld-vacuums/dc61.aspx>;
+    product:patent <http://sjh/patent#TW200901928>;
+    product:patent <http://sjh/patent#TW200824633>;
+    product:img <https://www.momomall.com.tw/goodsimg/101/182/0000/385/1011820000385_L1.jpg>;
+    product:img <http://shop.dyson.hk/media/catalog/product/cache/2/thumbnail/710x397/9df78eab33525d08d6e5fb8d27136e95/import/79/Gallery_JP_Handheld_DC61Purple_CarCleaning.jpg> .
+
+<http://sjh/patent#TW200901928>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_200901928_0096125931&rowIndex=0&storageId=1494344772730_invention>;
+    patent:name "旋風式分離裝置";
+    patent:spec "吸力強效";
+    patent:applicant "戴森科技有限公司".
+
+<http://sjh/patent#TW200824633>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_200824633_0096125938&rowIndex=13&storageId=1494344772730_invention>;
+    patent:name "清潔設備（一）";
+    patent:spec "輕便易攜";
+    patent:applicant "戴森科技有限公司".
+
+<http://sjh/product#4>
+    product:name "三菱 TC-ZXA 吸塵器";
+    product:kind "吸塵器";
+    product:url <http://www.mitsubishielectric.co.jp/ldg/wink/displayProduct.do?pid=5000002799>;
+    product:patent <http://sjh/patent#TW201714570A>;
+    product:patent <http://sjh/patent#TWI563958B>;
+    product:img <https://tshop.r10s.com/14cd8f70-ec8c-11e4-8ba2-005056ae57f4/upload/NEW/TC-ZXA20STW_S.jpg>;
+    product:img <http://tshop.r10s.com/c016b380-ec8b-11e4-a1f5-005056ae1805/upload/TC-Z149PTW-320.jpg?_ex=600x315>.
+
+<http://sjh/patent#TW201714570A>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_201714570_104137122&rowIndex=0&storageId=1494345374354_invention>;
+    patent:name "真空吸塵器之清掃頭以及真空吸塵器";
+    patent:spec "輕便易攜";
+    patent:applicant "三菱電機股份有限公司".
+
+<http://sjh/patent#TWI563958B>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_I563958_102122901&rowIndex=10&storageId=1494345611470_invention>;
+    patent:name "氣旋分離裝置及電性吸塵器";
+    patent:spec "輕便易攜";
+    patent:applicant "三菱電機股份有限公司".
+
+<http://sjh/product#5>
+    product:name "日立 CV-SD90";
+    product:kind "吸塵器";
+    product:url <http://kadenfan.hitachi.co.jp/clean/lineup/cvsd100/>;
+    product:patent <http://sjh/patent#TWI576082B>;
+    product:patent <http://sjh/patent#TWI573552B>;
+    product:img <http://kadenfan.hitachi.co.jp/clean/lineup/cvsd100/img/specZoom_cvsd90_k.jpg>;
+    product:img <http://kadenfan.hitachi.co.jp/clean/lineup/cvsd100/img/specThumb_cvsd100.jpg>.
+
+<http://sjh/patent#TWI576082B>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_I576082_102113273&rowIndex=1&storageId=1494345861988_invention>;
+    patent:name "吸塵器";
+    patent:spec "增加集塵容量";
+    patent:applicant "日立空調　家用電器股份有限公司".
+
+<http://sjh/patent#TWI573552B>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_I573552_104103201&rowIndex=2&storageId=1494345861988_invention>;
+    patent:name "電氣吸塵器";
+    patent:spec "集塵室清理便利";
+    patent:applicant "日立空調　家用電器股份有限公司".
+
+<http://sjh/product#6>
+    product:name "鋒護潤滑系列 刮鬍刀";
+    product:kind "刮鬍刀";
+    product:url <http://www.gillette.com.tw/zh-tw/about-gillette/razor-portfolio-technology#phdesktopbody_0_phdesktopbrandexperiencecontentarea_0_phbrandexperiencecontentarea0221f47a59bd482188a1d6df768958bc_2_pnlFlexiblePromoContainer>;
+    product:patent <http://sjh/patent#TW201012609>;
+    product:patent <http://sjh/patent#TW201004761>;
+    product:patent <http://sjh/patent#TW201008733>;
+    product:patent <http://sjh/patent#TW200838661>;
+    product:img <http://cdn.voyager.pgsitecore.com/zh-tw/-/media/Gillette_TW/Images/Products/zh-tw-products/razors/FusionProShield_Manual_Razor/5-tech.jpg?la=zh-TW&v=1-201608242136> .
+
+<http://sjh/patent#TW201012609>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_201012609_098117326&rowIndex=0&storageId=1494342876020_invention>;
+    patent:name "用於多刀片式刮鬍刀匣之刀片支撐構件";
+    patent:spec "精準極薄5刀片";
+    patent:applicant "吉列公司".
+
+<http://sjh/patent#TW201004761>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_201004761_098119973&rowIndex=0&storageId=1494343276476_invention>;
+    patent:name "具有可樞接刀片單元的安全刮鬍刀";
+    patent:spec "旋轉刀頭科技";
+    patent:applicant "吉列公司".
+
+<http://sjh/patent#TW201008733>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_201008733_098124150&rowIndex=1&storageId=1494343400283_invention>;
+    patent:name "刮鬍刀片";
+    patent:spec "精細修髮刀";
+    patent:applicant "吉列公司".
+
+<http://sjh/patent#TW200838661>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_200838661_0096134266&rowIndex=35&storageId=1494343400283_invention>;
+    patent:name "包含一礦物油塗覆刮鬍輔助件之溼刮鬍系統";
+    patent:spec "雙重護盾科技";
+    patent:applicant "吉列公司".
+
+<http://sjh/product#7>
+    product:name "飛利浦 YS502 電鬍刀";
+    product:kind "刮鬍刀";
+    product:url <http://www.eschick.com.tw/men/products/hydro/hydro-5#intro>;
+    product:patent <http://sjh/patent#TWD172960>;
+    product:img <https://images.philips.com/is/image/PhilipsConsumer/YS502_16-RTP-global-001?$jpglarge$&hei=500> .
+
+<http://sjh/patent#TWD172960>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_D172960_104301190&rowIndex=4&storageId=1494345514547_design>;
+    patent:name "刮鬍刀";
+    patent:spec "與刮鬍時的手持位置自然貼合";
+    patent:applicant "皇家飛利浦有限公司".
+
+<http://sjh/product#8>
+    product:name "舒適水次元5";
+    product:kind "刮鬍刀";
+    product:url <http://www.eschick.com.tw/men/products/hydro/hydro-5#intro>;
+    product:patent <http://sjh/patent#TWD181539>;
+    product:patent <http://sjh/patent#TWD181540>;
+    product:img <http://www.eschick.com.tw/assets/templates/img/products/feature-hydro_5.png>.
+
+<http://sjh/patent#TWD181539>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_D181539_105301923&rowIndex=0&storageId=1494346973683_design>;
+    patent:name "安全剃刀";
+    patent:spec "精修掀蓋";
+    patent:applicant "伊潔維個人護理產品有限責任公司".
+
+<http://sjh/patent#TWD181540>
+    patent:url <https://webpat.tw/webpat/index.cshtml#/patent-info?database=TW&esId=tw_D181540_105301924&rowIndex=1&storageId=1494346973683_design>;
+    patent:name "安全剃刀握把";
+    patent:spec "高質感光澤金屬和符合人體工學的設計";
+    patent:applicant "伊潔維個人護理產品有限責任公司".

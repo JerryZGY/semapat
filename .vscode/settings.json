@@ -1,0 +1,14 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.eol": "\n",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    }
+}

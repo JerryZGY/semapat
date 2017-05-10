@@ -1,0 +1,45 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "ordered-imports": [
+      false
+    ],
+    "max-line-length": [
+      false
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": "fields-first"
+      }
+    ],
+    "object-literal-sort-keys": false,
+    "radix": false,
+    "variable-name": [
+      true,
+      "ban-keywords"
+    ],
+    "switch-default": false,
+    "arrow-parens": false,
+    "max-classes-per-file": [
+      false
+    ],
+    "space-before-function-paren": false,
+    "interface-over-type-literal": false,
+    "trailing-comma": [
+      false
+    ],
+    "eofline": false,
+    "interface-name": [
+      false
+    ],
+    "no-unused-expression": false,
+    "object-literal-key-quotes": [
+      false
+    ]
+  }
+}
