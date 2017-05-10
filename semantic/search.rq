@@ -1,0 +1,24 @@
+﻿prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix product: <http://sjh/product#>
+prefix patent: <http://sjh/patent#>
+
+SELECT ?product ?url ?name ?patents (GROUP_CONCAT(?img) AS ?imgs)
+WHERE
+{
+  ?product	product:kind	"test";
+  			product:img		?img;
+            product:url		?url;
+            product:name	?name.
+  {
+	SELECT ?product (GROUP_CONCAT(?patent) AS ?patents)
+	WHERE
+	{
+		?product product:patent ?patent.
+	}
+	GROUP BY ?product
+  }
+}
+GROUP BY ?product ?url ?name ?patents
